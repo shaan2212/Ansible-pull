@@ -3,7 +3,7 @@
 ## by Shantanu
 
 - name: Ansible Example Pull Mode
-  hosts: localhost
+  hosts: NGINX
   user: root
   connection: local
 
