@@ -1,0 +1,15 @@
+---
+## Example for Ansible Pull
+## by lework
+
+- name: Ansible Example Pull Mode
+  hosts: localhost
+  user: root
+  connection: local
+
+  tasks:
+    - name: 'Hello, ansible.'
+      debug: msg={{ name }}
+      
+  roles:
+    - pull

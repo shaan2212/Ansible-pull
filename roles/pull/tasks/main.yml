@@ -1,0 +1,4 @@
+---
+# author: lework
+
+- debug: msg={{ role_name }}
