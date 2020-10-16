@@ -1,5 +1,5 @@
-# 使用
+To run run the below
 
 ```bash
-ansible-pull -o -C master -d /tmp/pull -i /tmp/pull/hosts -U https://github.com/kuailemy123/Ansible-Pull-Example.git
+ansible-pull -o -C master -d /tmp/pull -i /tmp/pull/hosts -U https://github.com/shaan2212/Ansible-pull.git
 ```
