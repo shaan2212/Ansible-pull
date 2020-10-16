@@ -4,8 +4,8 @@
 
 - name: Ansible Example Pull Mode
   hosts: NGINX
-  user: root
-  connection: local
+  user: rundeck
+ # connection: local
 
   tasks:
     - name: 'Hello, ansible.'
